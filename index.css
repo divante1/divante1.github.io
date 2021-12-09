@@ -1,0 +1,159 @@
+html{   
+    min-height: fit-content;
+}
+#logo{
+    display:flex;
+    width:90%;
+    height: 30%;
+    text-align: center;
+    margin:auto;
+   
+    border-radius: 10px;
+}
+body {
+    overflow-y:scroll;
+}
+#DarkSouls{
+    display:flex;
+    background-color: rgba(55,22,0,1);
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    color:white;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    
+}
+.text{
+    margin:20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(100,22,22,1);
+    
+}
+#secondBox{
+    display:flex;
+    flex-direction: column;
+    float: right;
+    background-color: rgba(55,22,0,1);
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 10px;
+    margin:20px;
+    color:white;
+    
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+#secondBox h1{
+    background-color:rgba(100,22,22,1);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    margin:50px;
+    background-color:rgba(228, 228, 228, 0.568);
+    border-radius: 10px;
+}
+#footer{
+    display:flex;
+    flex-direction:column;
+    margin-top:360px;
+    color:white;
+}
+.header{
+    color:white;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgba(100,22,22,1);
+}
+#headerWrapping{
+    display:flex;
+}
+#headerWrapping input{
+    margin:auto;
+    margin-bottom: 20px;
+    background-color: rgba(100,22,22,1);
+    border-radius: 10px;
+    color:white;
+    font-size: medium;
+    box-shadow:2px 2px 2px 2px rgb(39, 37, 37);
+}
+#background{
+    box-shadow: 10px 10px 10px 10px rgb(39, 37, 37);
+    background-color: rgb(173, 168, 168);
+    border-radius: 10px;
+    margin:20px;
+    outline:10px solid rgba(100,22,22,1);
+    
+    
+    
+}
+#projectNumber{
+    font-size: x-large;
+}
+#projectNumberTwo{
+    font-size: x-large;
+    margin-top:20px;
+    padding-bottom: 27px;
+}
+#resume{
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(100,22,22,1);
+    margin:0px 10px 0px 10px;
+    font-size: large;
+}
+p, h1, h2{
+    text-align: center;
+    font-size: xx-large;
+    margin:0;
+}
+#deansOne{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin:auto;
+    width: 47%;
+    
+    
+}
+#deansTwo{
+    display: block;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 50%;
+    
+}
+#deans{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin:auto;
+    width: 50%;
+}
+h3{
+    text-align: center;
+    margin:10px;
+}
+#pageDescription{
+    margin:10px 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+#discord{
+    text-align: center;
+    margin:10px;
+    font-size: x-large;
+}
+
+
+
+
+
+
