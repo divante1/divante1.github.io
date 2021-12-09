@@ -7,9 +7,7 @@ var largerPicture = function(){
 var home = function(){
     window.location.href= "index.html";
 };
-var about = function(){
-    window.location.href= "about.html";
-};
+
 var education = function(){
     window.location.href= "education.html";
 };
@@ -23,7 +21,7 @@ var contact = function(){
 
 window.onload = function(){
     $("home").onclick = home;
-    $("about").onclick = about;
+    
     $("education").onclick = education;
     $("experience").onclick = experience;
     $("contact").onclick = contact;
