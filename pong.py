@@ -1,5 +1,5 @@
 import turtle
-import winsound
+
 
 
 wn = turtle.Screen()
@@ -83,7 +83,7 @@ while True:
     if ball.ycor() > 290:
         ball.sety(290)
         ball.dy *= -1
-        winsound.PlaySound("bounce.wav", winsound.SND_ASYNC)
+        
 
     if ball.ycor() < -290:
         ball.sety(-290)
